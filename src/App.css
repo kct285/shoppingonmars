@@ -1,3 +1,10 @@
+body{
+  font-family: 'Andale Mono'; 
+  background:url('https://thumbs.gfycat.com/HotAcrobaticLabradorretriever-size_restricted.gif');
+  color:white;
+  padding:150px 0px;
+}
+
 .App {
   text-align: center;
   display: flex;
@@ -6,7 +13,32 @@
   align-items: center;
 }
 
-.product {
+.productCard{
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 3px;
+  width: 450px;
+  margin-bottom: 15px;
+  padding:15px;
+}
+
+.productDescription p{
+  margin: 0;
+  padding: 0;
+}
+
+h3{
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+
+/* .Product {
   background: white;
   display: flex;
   flex-direction: row;
@@ -15,6 +47,6 @@
   width: 100px;
   height: 100px;
   margin: 25px;
-}
+} */
 
 
